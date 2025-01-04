@@ -5,9 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopper</title>
     <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
+    <nav>
+        <div class="container">
+            <div class="flex items-center justify-between py-[56px]">
+                <i><a href="#!" class="text-[40px] font-montserrat"><span class="text-[#10B981]">Shop</span>per</a></i>
+                <span class="flex items-center relative">
+                    <input class="w-[320px] h-[63px] shadow shadow-black font-montserrat font-medium px-[32px] rounded-[10px]" type="text" placeholder="Search Items" >
+                    <button class="size-[38px] bg-[#10B981] flex justify-center items-center text-[17px] text-white rounded-[5px] absolute left-[270px]"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </span>
+                <div class="flex gap-[23px]">
+                    <a href="#!" class="font-montserrat font-medium px-[36px] py-[25px] inline-block rounded-full border-[#10B981] border">0 Items Added</a>
+                    <a href="#!" class="font-montserrat font-medium px-[36px] py-[25px] bg-[#10B981] inline-block rounded-full text-white">Login or Sign Up</a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#10B981]">
+            <ul class="container flex items-center justify-between py-[30px]">
+                <li><a class="text-[20px] text-white font-montserrat font-semibold" href="#!">Features</a></li>
+                <li><a class="text-[20px] text-white font-montserrat font-semibold" href="#!">Products</a></li>
+                <li><a class="text-[20px] text-white font-montserrat font-semibold" href="#!">Blog</a></li>
+                <li><a class="text-[20px] text-white font-montserrat font-semibold" href="#!">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="container flex items-center justify-between h-screen">
+            <div>
+                <h1 class="text-[64px] font-montserrat font-semibold mb-[30px]">Discover Our <br> Latest  Products</h1>
+                <p class="text-[30px] font-medium font-montserrat mb-[52px]">Lorem ipsum is a placeholder text commonly used <br> to demonstrate the visual form of a product</p>
+                <a href="#!" class="text-[21px] text-white font-montserrat font-semibold px-[82px] py-[22px] bg-[#10B981] rounded-[10px]">Buy Now</a>
+            </div>
+            <div>
+                <img src="./img/headphone.png" alt="" class="w-[500px]">
+            </div>
+        </div>
+    </header>
 
 </body>
 </html>
